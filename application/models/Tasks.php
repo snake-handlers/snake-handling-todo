@@ -11,6 +11,9 @@
  *
  * @author chach
  */
-class Tasks {
+class Tasks  extends MY_Model{
+    public function __construct() {
+        parent::__construct('tasks', 'id');
+    }
     //put your code here
 }
