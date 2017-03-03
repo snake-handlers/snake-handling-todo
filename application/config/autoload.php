@@ -145,3 +145,18 @@ $autoload['model'] = array('flags', 'groups', 'priorities', 'sizes', 'statuses',
 |
 */
 $autoload['libraries'] = array('parser', 'database', 'parsedown');
+
+
+
+
+
+/*
+| -------------------------------------------------------------------
+|  Auto-load Role Switching Sessions
+| -------------------------------------------------------------------
+| Prototype:
+|
+|	$autoload['libraries'] = array('parser', 'database', 'parsedown','session');
+|
+*/
+$autoload['libraries'] = array('parser', 'database', 'parsedown','session');
